@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "Real Analytics Sidebar",
+    "version": "1.1",
+    "description": "Панель с реальными системными показателями CPU, RAM и графиком",
+    "permissions": [
+        "activeTab",
+        "scripting",
+        "system.cpu",
+        "system.memory"
+    ],
+    "action": {
+        "default_title": "Открыть панель аналитики"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
